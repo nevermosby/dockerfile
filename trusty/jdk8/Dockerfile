@@ -1,7 +1,7 @@
 FROM buildpack-deps:trusty
 MAINTAINER yanguanyu 
-RUN mv /etc/apt/sources.list /etc/apt/sources.list.bak
-ADD sources.list /etc/apt/sources.list
+# RUN mv /etc/apt/sources.list /etc/apt/sources.list.bak
+# ADD sources.list /etc/apt/sources.list
 
 
 ENV JAVA_HOME /usr/lib/jvm/jdk1.8.0_102
